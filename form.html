@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <h1>Clarusway Survey Form </h1>
+            <br>
+            <p>Thank you for taking the time to help us improve the platform</p>
+<br>
+        </header>
+
+        <section id="section">
+            <form action="result.html" method="get">
+
+                    <div class="input-box">
+                        <label for="name"><b>name</b></label>
+                        <br />
+                        <br>
+                        <input type="text" name="adı" id="name" placeholder="Enter Your Name" />
+                    </div>
+                    <br>
+                    <div class="input-box">
+<label for="surname"><b>surname</b></label>
+<br><br>
+<input type="text" name="surname" id="surname" placeholder="enter your surname">
+
+                    </div>
+    <br>
+    <div class="input-box">
+        <label for="email"> <b>email</b> </label>
+        <br><br>
+        <input type="email" name="email" id="email" placeholder="enter your email">
+    </div>
+    <br>
+   <div  class="input-box">
+<p> <b>Which option best describes your current role?</b>  </p>
+<br>
+<select name="current" id="current" >
+<option value="devops">devops</option>
+<option value="frontend">frontend</option>
+<option value="devops">devops</option>
+<option value="frontend">frontend</option>
+
+</select>
+    
+   </div> 
+
+   <div class="input-box">
+
+    <p> <b>Would you recommend Clarusway to a friend</b> </p>
+    <input type="radio" name=" Definitely, Yes" id=" Definitely, Yes">
+    <label for=" Definitely, Yes"> Definitely, Yes</label>
+    <br>
+    <input type="radio" name=" maybe" id=" maybe">
+    <label for=" maybe"> maybe</label>
+    <br>
+    <input type="radio" name=" not sure" id=" not sure">
+    <label for=" not sure"> Definitely, Yes</label>
+    <br>
+    <input type="radio" name=" Definitely, no" id=" Definitely, no">
+    <label for=" Definitely, no"> Definitely, Yes</label>
+    <br>
+   </div >
+
+   <div class="input-box">
+    <p><b>What is your favorite feature of Clarusway?</b></p>
+    <br>
+    <select name="featur" id="feature">
+        <option value="select">Select option</option>
+        <option value="Frontend">Frontend</option>
+        <option value="Backend">Backend</option>
+        <option value="DevOps">DevOps</option>
+    </select>
+   </div>
+
+<div class="input-box">
+<p><b>What would like to see improved?(Check all that apply)</b></p>
+<input type="checkbox" name="Frontend" id="front">
+                <label for="front">Front-end Projects</label><br>
+                <input type="checkbox" name="Backend" id="back">
+                <label for="back">Back-end Projects</label><br>
+                <input type="checkbox" name="DataScience" id="data">
+                <label for="data">Data Science</label><br>
+                <input type="checkbox" name="Additional Courses" id="addition">
+                <label for="addition">Additional Courses</label><br><br>
+
+</div>
+
+<div class="input-box">
+    <p><b>Any comments or suggestions?</b></p>
+    <br>
+    <textarea name="yorum" id="yorum" placeholder="yorumunuzu girin" ></textarea>
+    <br>
+    <input type="submit" value="submit" id="submıt">
+
+
+</div>
+
+        </section>
+    </div>
+    
+</body>
+</html>
